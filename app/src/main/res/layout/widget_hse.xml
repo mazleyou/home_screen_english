@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/widget_element_min_length"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+
+    <ListView
+        android:id="@+id/buttons_list_view"
+        android:layout_width="80dp"
+        android:layout_height="48dp" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/hse_label"
+    android:initialLayout="@layout/widget_hse"
+    android:minWidth="280dp"
+    android:minHeight="48dp"
+    android:minResizeWidth="230dp"
+    android:minResizeHeight="48dp"
+    android:previewImage="@drawable/buttons_widget_preview"
+    android:previewLayout="@layout/widget_hse"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:widgetCategory="home_screen" />
